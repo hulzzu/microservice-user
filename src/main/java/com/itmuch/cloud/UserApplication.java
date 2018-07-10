@@ -18,5 +18,7 @@ public class UserApplication {
 
 		System.out.println("111111111");
 		System.out.println("111111111");
+		
+		System.out.println("试试好不好使");
 	}
 }
