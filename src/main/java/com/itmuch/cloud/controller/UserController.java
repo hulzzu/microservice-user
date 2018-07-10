@@ -14,9 +14,11 @@ public class UserController {
 	public String sayHello(@PathVariable String userName) {
 		if(userName==null || "".equals(userName)){
 			return "用户名称怎么能为空呢";
-
-//        11112222
 		}
 		return userName+"，你好！";
 	}
+
+    public static void main(String[] args) {
+
+    }
 }
